@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+div {
+    width: 200px;
+    background: yellow;
+    overflow: hidden;
+
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+
+    margin: 25px;
+    text-align: center;
+}
+
+.a {box-shadow: black 10px 10px 1px 1px;}
+.b {box-shadow: black 10px 10px 4px 1px}
+.c {box-shadow: black 10px 10px 4px 3px}
+.d {box-shadow: silver 10px 9px 4px 1px}
+.e {border-radius: 5px;
+    box-shadow: #8d8d8d 10px 10px 3px 3px}
+.f {border-radius: 5px;
+    box-shadow: silver 10px 10px 6px 3px}
+
+
