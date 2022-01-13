@@ -1,0 +1,19 @@
+div{
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.sb{
+    height: 200px;
+    width: 400px;
+    background: #8d8d8d;
+    margin-top: 100px;
+    box-shadow: saddlebrown -11px -11px 63px -9px;
+}
+.t{
+    border-left: red;
+    border-top: white;
+    border-right: white;
+    border-bottom: white;
+    border-style: solid;
+
+}

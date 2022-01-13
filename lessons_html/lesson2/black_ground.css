@@ -1,0 +1,31 @@
+body{background: black}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 700px ;
+    margin-right: 700px;
+}
+.orange{
+    color: orange;
+    margin-top: 200px;
+}
+.blue {
+    color: deepskyblue;
+    margin-top: 20px;
+}
+.purpur{
+    color: purple;
+    margin-top: 20px;
+}
+
+.red{
+    color: red;
+    margin-top: 20px;
+
+
+}
