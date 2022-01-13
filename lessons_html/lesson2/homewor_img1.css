@@ -1,0 +1,31 @@
+body {margin: 0;}
+.h2 {
+    background: #8a2928;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px
+    }
+
+.l1 {
+    background: #b7b6b6;
+    font-size: 20px;
+    padding: 20px;
+    }
+.l2{
+    background: #6496ec;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 20px
+    }
+.g{
+    background: #6cba68;
+    width: 200px;
+    height: 200px;
+    }
+.v{
+    background: #8987ac;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
