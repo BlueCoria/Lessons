@@ -1,0 +1,27 @@
+.w {
+    background: #246abb;
+    width: 470px;
+    height: 250px;
+}
+.c {
+    background: #246abb;
+    width: 470px;
+    height: 300px;
+}
+.w_1, .w_2, .w_3 {
+    background: #18467b;
+    width: 150px;
+    height: 200px;
+}
+.w, .c,.w_1, .w_2, .w_3{
+    margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a, #b, #c {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

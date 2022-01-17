@@ -1,0 +1,39 @@
+/*розміри*/
+#header{background: #e6f7b1;}
+#footer{background: #ffffca;}
+#header,#footer{
+    height: 30px;
+    width: 222px;
+    border: 1px solid;
+    margin: 5px;
+}
+#menu{
+    background: #ffb7ff;
+    height: 132px;
+    width: 70px;
+    border: 1px solid;
+    margin: 5px;
+}
+.post{
+    background: #a0e2ff;
+    height: 60px;
+    width: 140px;
+    border: 1px solid;
+    margin: 5px;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+}
+#a,#b,#c{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#header,#menu,.post,#footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    align-items: center
+}

@@ -1,0 +1,36 @@
+.h,.a,.k{
+    background: #246abb;
+    border: 1px solid;
+    color: white;
+}
+.d1,.d2,.d3{
+    background: #18467b;
+    border: 1px solid;
+    color: white;
+}
+.d1,.d2,.d3{
+    height: 150px;
+    width: 110px;
+    margin: 5px;
+}
+.k{
+    width: 356px;
+    height: 160px;
+    margin: 5px;
+}
+.h,.a{
+    width: 171px;
+    height: 320px;
+    margin: 5px;
+}
+/*центрування*/
+#a,#b,#c{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.h,.a,.k,.d1,.d2,.d3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
