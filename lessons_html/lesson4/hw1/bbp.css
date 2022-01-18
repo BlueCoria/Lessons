@@ -1,0 +1,40 @@
+body {
+    background: #08bcd4;
+}
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.white_background {
+    background: white;
+}
+
+div > h2 {
+    color: orange;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.size {
+    font-size: 50px;
+}
+/*.h100px{*/
+/*    height: 100px;}*/
+/*.w300px{*/
+/*    width: 300px;}*/
+.m10{
+    margin: 10px;
+}
+.p10{
+    padding: 10px;
+}
+.img_size{
+font-size: 50px;
+}
+.round_frame{
+    border-radius: 10px;
+}
