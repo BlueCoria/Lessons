@@ -1,0 +1,31 @@
+/*кольори*/
+.background_pale_green{background: #e6f7b1;}
+.background_pale_yellow {background: #ffffca;}
+.background_pink{background: #ffb7ff;}
+.background_pale_turquoise_h2w4{background: #a0e2ff;
+    height: 200px;
+    width: 400px
+}
+/*рамка+розміри*/
+.frame{
+    border: 4px solid;
+    margin: 5px;
+}
+.h_100_w_600{
+    height: 100px;
+    width: 600px;
+}
+/*розмітка*/
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row_center{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+}
+.box_item_center{
+        font-size: 30px;
+        align-items: center
+}

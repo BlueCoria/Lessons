@@ -1,0 +1,44 @@
+.red_background{
+    background: #e3502b;
+}
+.orange_background{
+    background: #f0662c;
+}
+.coral_background{
+    background: #f18250;
+}
+.white_background{
+    background: white;
+}
+.white_box{
+    height: 40px;
+    width: 70px;
+}
+.h100{
+    height: 100px;
+}
+.h300{
+    height: 300px;
+}
+.h600{
+    height: 600px;
+}
+.w500{
+    width: 500px;
+}
+.p10px{
+    padding: 10px;
+}
+.colorwite{
+    color: white;
+}
+.xxx{
+    display: flex;
+    justify-content: space-between;
+}
+.zzz{
+    display: flex;
+}
+.picogram{
+    text-align: center;
+}
