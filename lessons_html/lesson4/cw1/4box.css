@@ -1,0 +1,48 @@
+/*color*/
+.cyan_background{
+    background: #56c3b6;
+}
+
+.silver_pictogram{
+    color: silver;
+    margin-top: 40px;
+}
+.brown_subtitle{
+    color: #c88e60;
+    font-size: 20px
+}
+.small_white_text_button{
+    color: white;
+    font-size: small
+}
+.fo_size_40{
+    font-size: 40px;
+}
+.w100h50{
+    width: 100px;
+    height: 50px;
+}
+.w400_w200{
+    height: 400px;
+    width: 200px;
+}
+.frame_with_shadow{
+    border: 1px solid silver;
+    box-shadow: 10px 10px 10px -11px;
+}
+.m20px{
+    margin: 20px;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.space_around{
+    justify-content: space-around;
+}
+.center{
+    align-items: center;
+    text-align: center;
+}
