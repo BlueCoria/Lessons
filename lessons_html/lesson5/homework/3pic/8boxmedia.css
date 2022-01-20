@@ -1,0 +1,26 @@
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .body{
+        border: 10px solid;
+        border-radius: 10px;
+        width: 330px;
+    }
+    .a,.b,.c,.d,.e,.f,.g{
+        height: 100px;
+    }
+    .b,.c,.d,.e,.f,.g{
+        width: 100px;
+        border-radius: 25%;
+    }
+    .h{
+        height: 150px;
+    }
+    .a,.h{
+        width: 320px;
+    }
+    .child111,.child1{
+        display: flex;
+    }
+    .child1{
+        flex-direction: column;
+    }
+}

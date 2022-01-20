@@ -1,0 +1,20 @@
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .body {
+        border: 2px solid;
+        border-radius: 10px;
+        width: 110px;
+    }
+    .body,.child2{
+        display: flex;
+        flex-direction: column;
+    }
+    .a,.c{
+        width: 100px;
+        height: 50px;
+    }
+    .b{
+        width: 100px;
+        height: 150px;
+    }
+
+}

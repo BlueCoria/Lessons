@@ -1,0 +1,30 @@
+body{
+    margin: 0;}
+.body{
+    width: 420px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.a,.b,.c{
+    background: #d9d9d9;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    height: 100px;
+    width: 410px;
+}
+.b{
+    height: 200px;
+    width: 300px;
+}
+.c{
+    height: 200px;
+    width: 100px;
+}
+.child2{
+    display: flex;
+}

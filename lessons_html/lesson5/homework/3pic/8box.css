@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.body{
+    border: 5px solid;
+    border-radius: 5px;
+    width: 440px;
+}
+
+.child1,.child111,.a,.b,.c,.d,.e,.f,.g,.h{
+    display: flex;
+}
+
+.a,.b,.c,.d,.e,.f,.g,.h{
+    background: #d9d9d9;
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    width: 430px;
+}
+.b,.c,.d,.e,.f,.g,.h{
+    width: 100px;
+}
+
+.a,.b,.c,.d,.e,.f,.g{
+    height: 100px;
+}

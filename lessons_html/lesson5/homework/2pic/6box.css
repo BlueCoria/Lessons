@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.child1, .child3, .child2, .a, .b, .c, .d, .e, .f {
+    display: flex;
+}
+
+.body {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 440px;
+}
+
+.a, .b, .c, .d, .e, .f {
+    background: #d9d9d9;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2 {
+    flex-direction: column;
+}
+
+.a, .b, .c, .d, .e {
+    height: 100px;
+}
+
+.f, .c, .d, .e  {
+    width: 100px;
+}
+
+.b {
+    width: 320px;
+}
