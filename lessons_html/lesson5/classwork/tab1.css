@@ -1,0 +1,68 @@
+/*color*/
+body {
+    background: #b4cad6;
+    margin: 0;
+}
+
+.a1, .a2, .b1, .b2, .b3, .b4, .b5, .c1, .d1, .d2, .d3, .d4, .e1, .e2, .e3, .e4, .e5, .e6, .e7, .e8, .e9, .e10, .e11, .e12, .e13, .f1, .f2, .f3, .f4, .g1, .g2 {
+    background: #cbcbcb;
+    margin: 5px;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6, .block7 {
+    border: 2px solid;
+    background: white;
+}
+
+/*size*/
+.a1, .a2, .b1, .b2, .b3, .b4, .b5, .e13, .b6, .g1, .g2 {
+    height: 15px;
+}
+
+.a1, .a2, .b1, .b2, .b3, .b4, .b5, .e13, .b6, .g2 {
+    width: 70px;
+}
+
+.c1, .g1 {
+    width: 310px;
+}
+
+.c1 {
+    height: 150px;
+}
+
+.d1, .d2, .d3, .d4 {
+    height: 40px;
+}
+
+.f1, .f2, .f3, .f4 {
+    height: 30px;
+}
+
+.d1, .d2, .d3, .d4, .f1, .f2, .f3, .f4 {
+    width: 70px;
+}
+
+.e1, .e2, .e3, .e4, .e5, .e6, .e7, .e8, .e9, .e10, .e11, .e12 {
+    height: 50px;
+    width: 110px;
+}
+
+/*place*/
+.divbody,.block1,.child1,.child3,.blocke,.block4,.block4_1,.block4_2,.block5,.block7 {
+    display: flex;
+}
+
+.block1 {
+    justify-content: space-between;
+}
+.divbody,.block4,.block4_1,.block4_2,.block5,.block7{
+    justify-content: center;
+}
+.block5,.block7{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+

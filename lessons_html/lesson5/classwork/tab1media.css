@@ -1,0 +1,28 @@
+@media screen and (min-width: 0px) and (max-width: 420px) {
+
+    .block2,.e14,.e6 {
+        clip: rect(0, 0, 0, 0);
+        position: absolute;
+    }
+    .block1,.child3,.block4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .a2,.c1,.e1,.e2,.e3,.e4,.e5,.f1,.f2,.f3,.f4,.g1{
+        width: 150px;
+    }
+    .c1,.f4{
+        height: 75px;
+    }
+    .e1,.e2,.e3,.e4,.e5,.f1,.f2,.f3{
+        height: 25px;
+    }
+    .a1,.a2,.e13,.g1,.g2{
+        height: 10px;
+    }
+    .a1,.e13,.g2{
+        width: 30px;
+    }
+
+}
