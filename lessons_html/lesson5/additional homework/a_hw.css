@@ -1,0 +1,39 @@
+/*.a, .b, .c, .d, .e, .f, .g, .h, .i, .j {*/
+/*    background: #676767;*/
+/*    margin: 5px;*/
+/*    color: white;*/
+/*}*/
+
+/*.body, .child_top,.child1,.child2,.chid_box {*/
+/*    display: flex;*/
+/*}*/
+
+/*.body,.child2 {*/
+/*    flex-direction: column;*/
+/*}*/
+/*.body_c{*/
+/*    display: flex;*/
+/*}*/
+/*.hi{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.d22 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    z-index: 1;
+}
+.d23 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    z-index: 2;
+}
