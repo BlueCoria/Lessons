@@ -1,0 +1,49 @@
+@media screen and (min-width: 0px) and (max-width: 450px) {
+    .menu,.img1,.img2,.article3 img,.boxes3,.article4 img,.article5 img{
+        display: none
+    }
+    .mobile_button {
+        display: flex;
+    }
+    .page,.navigation_bar,.article1,.article2,.article3,.article4,.boxes3,.article5,.bluebox,.footer{
+        width: 100%;
+        min-width: auto;
+
+    }
+    .page{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .article1,.article2,.article3,.article4,.boxes3,.article5,.bluebox,.footer{
+        margin: 40px;
+    }
+    .box1 h2{
+        height: 110px;
+    }
+    .box2 h2{
+        height: 50px;
+    }
+    .plans{
+        margin: 0;
+    }
+    .f{
+        height: auto;
+        width: auto;
+        display: block;
+    }
+    .footerboxs {
+        display: flex;
+        height: 631px;
+        width: 434px;
+    }
+    .footer{
+        justify-content: space-between;
+    }
+    .footerboxs p{
+        font-size: 20px;
+    }
+    .footerboxs a{
+        font-size: 15px;
+    }
+}

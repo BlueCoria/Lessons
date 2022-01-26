@@ -30,9 +30,7 @@
     justify-content: flex-start;
     column-gap: 50px;
 }
-.dflex{
-    display: flex;
-}
+
 .footerlogo{
     justify-content: space-evenly;
 }
