@@ -1,0 +1,172 @@
+.navigation_bar, .article1, .article2,.boxes3, .article3, .article4,.article5 {
+    width: 1150px;
+}
+.page{
+    height: 5190px;
+}
+/*navigator bar*/
+.navigation_bar {
+    height: 53px;
+}
+.menu {
+    column-gap: 22px;
+}
+.menu_item a {
+    text-decoration: none;
+}
+.login,.expert{
+    height: 50px;
+    border-radius: 50px;
+}
+.login {
+    background: none;
+    width: 96px;
+    border: 1px solid;
+}
+.expert {
+    background: black;
+    width: 189px;
+    color: white;
+}
+/*article1*/
+.img1 {
+    width: 667px;
+    height: 517px;
+}
+.child1 h1 {
+    font-size: 77px;
+}
+
+.child1 p {
+    font-size: 20px;
+}
+.text1 {
+    width: 483px;
+    height: 504px;
+}
+.text1 h4 {
+    margin-top: 70px;
+}
+
+.talk {
+    background: black;
+    width: 159px;
+    height: 61px;
+    color: white;
+    border-radius: 50px;
+}
+/*article2*/
+.img2 {
+    width: 483px;
+    height: 280px;
+}
+
+.text2 {
+    width: 564px;
+    height: 345px;
+}
+
+.article2 h1 {
+    font-size: 57px;
+    margin: 0;
+}
+
+.article2 p {
+    font-size: 20px;
+}
+/*article3*/
+.boxes1 {
+    column-gap: 54px;
+}
+
+.box1 {
+    width: 280px;
+}
+.discover {
+    background: #f7b3b7;
+    width: 235px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+/*article4*/
+
+.article4 {
+    background: #fdeced;
+}
+.box2 {
+    width: 309px;
+}
+.plans{
+    font-size: 50px;
+    margin-left: 100px ;
+}
+/*boxes3*/
+.companies {
+    width: 236px;
+    height: 72px;
+    font-size: 20px;
+}
+
+/*article5*/
+
+.boxes4{
+    width: 363px;
+    height: 287px;
+}
+.boxes4 h3{
+    font-size: 48px
+}
+.hub{
+    background: #f7b3b7;
+    width: 79px;
+    height: 26px;
+    border-radius: 26px;
+}
+/*bluebox*/
+.bluebox{
+    background: #8cd4d6;
+    width: 1150px;
+    height: 283px;
+    border-radius: 10px;
+}
+.bluebox h2{
+    font-size: 46px;
+}
+.start{
+    background: black;
+    color: white;
+    width: 159px;
+    height: 50px;
+    border-radius: 50px;
+}
+/*footer*/
+.footer{
+    background: #323040;
+    width: 1440px;
+    height: 631px;
+    color: white;
+    padding: 30px;
+}
+
+
+.grap22{
+    column-gap: 22px;
+}
+.grap50{
+    column-gap: 40px;
+
+}
+
+.f a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.f p{
+    font-size: 40px;
+}
+.f{
+    width: 250px;
+    height: 230px;
+}

@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page, .navigation_bar, .menu, .text1, .child1, .article2, .article3, .boxes1, .boxes2, .article4, .boxes3, .article5, .boxes4, .bluebox,.footer,.footerbox1,.footerbox2 {
+    display: flex;
+}
+
+.page, .text1, .article3, .article4, .boxes4,.footer{
+    flex-direction: column;
+}
+
+.page, .navigation_bar, .menu, .logo, .article2, .boxes3,.bluebox {
+    align-items: center;
+}
+
+.boxes4, .boxes3, .article5 {
+    justify-content: center;
+}
+
+.navigation_bar, .article2 {
+    justify-content: space-between;
+}
+
+.boxes2,.bluebox {
+    justify-content: space-around;
+}
+
+.article3, .boxes4 {
+    justify-content: flex-start;
+    column-gap: 50px;
+}
+.dflex{
+    display: flex;
+}
+.footerlogo{
+    justify-content: space-evenly;
+}
+.dispaly_flex{
+    display: flex;
+}
+.footerboxs{flex-wrap: wrap;}
+
+.center{
+    justify-content: space-between;
+    align-items: center;
+}
+.page, .footer{
+    justify-content: space-between;
+}
