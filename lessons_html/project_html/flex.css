@@ -1,0 +1,37 @@
+.mum,.navigation_bar,.menu_item,.menu_button,.box1,.box1_left,.box1_right,.box1_button,.img,.box1_img1,.box1_img2,
+.box2,.partners_logo_l1,.partners_logo_l2,.partners_logo_l3,.turquoise_box,.box4,.box5_body,.box5_right,.box6,.box6_2,
+.box6_3,.box6_4,.box6_2_left,.box6_3_left,.box6_4_left,.box6_4_but2,.box_4_mini_b1,.box_4_mini_b2,.box_4_mini_b3,.box7,
+.box7_title_pub,.box7,.box7_title_pub_inf_1,.box7_title_pub_inf_5,.box7_title_pub_inf_6,.box7_title_pub_inf_4,.box8,
+.box8_left,.box9,.box9_left,.box9_right,.box9_right_img_with_signature,.box9_right_signature,.footer,.f_top,
+.f_b_navigation,.f_b_n_footer_menu,.f_b_roots{
+    display: flex;
+}
+.mum,.box1_left,.box2,.box4,.box5_right,.box6,.box6_2_left,.box6_3_left,.box6_4_left,.box7,.box8_left,.box9_left,
+.box9_right,.box9_right_signature,.footer,.f_top{
+    flex-direction: column;
+}
+.mum,.box1_left,.box2,.turquoise_box,.box4,.box5_right,.box7,.box9,.box9_left,.box9_right,.box9_right_img_with_signature
+{
+    justify-content: center;
+}
+.navigation_bar,.box1,.box5_body,.box6_2,.box6_3,.box6_4,.box6_4_but2,.box7_title_pub_inf_1,.box7_title_pub_inf_5,
+.box7_title_pub_inf_6,.box8, .box8_left{
+    justify-content: space-between;
+}
+.box6_2_left,.box6_3_left,.box6_4_left,.f_b_n_footer_menu{
+    justify-content: space-evenly;
+}
+.f_b_roots{
+    justify-content: space-between;
+}
+
+.box1_img1, .box1_img2,.box1_right,.box9_right_signature{
+    justify-content: flex-end;
+}
+.navigation_bar,.img,.box1_right,.box2,.turquoise_box,.box4,.box5_body,.box_4_mini_b1,.box_4_mini_b2,.box_4_mini_b3,
+.box7,.box7_title_pub_inf_1,.box7_title_pub_inf_5,.box7_title_pub_inf_6,.box7_title_pub_inf_4,.f_top{
+    align-items: center;
+}
+.box9_right_signature{
+    align-items: flex-start
+}
